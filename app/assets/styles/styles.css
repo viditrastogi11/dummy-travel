@@ -8,6 +8,7 @@
 @import 'modules/_headline';
 @import 'modules/__btn';
 @import 'modules/_row';
+@import 'modules/_reveal-item';
 @import 'modules/_primary-nav';
 @import 'modules/_site-header';
 @import 'modules/_site-footer';
