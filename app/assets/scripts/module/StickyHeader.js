@@ -51,7 +51,6 @@ calcSection(el){
         let scrollPerccent=el.getBoundingClientRect().y/this.browserHeight*100;
         if(scrollPerccent<18 && scrollPerccent>-0.1 && this.scrollDirection=='down' || scrollPerccent<33 && this.scrollDirection=='up'){
             let matching=el.getAttribute("data-matching-link")
-
             document.querySelectorAll(`.primary-nav a:not(${matching})`).forEach(el=> el.classList.remove('is-current-link'))
             document.querySelector(matching).classList.add('is-current-link')
             
