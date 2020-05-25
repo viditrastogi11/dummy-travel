@@ -40,9 +40,13 @@
         font-size:0.8rem;
         background-color:rgba($mblue,0.7);
         @mixin atMedium{
-        padding:12px 0;
-        font-size:1rem;
-        background-color:transparent;
+             padding:12px 0;
+             font-size:1rem;
+             background-color:transparent;
+             
+             &.is-current-link{
+                 color:#fabb69;
+             }
         }
     }
 }
