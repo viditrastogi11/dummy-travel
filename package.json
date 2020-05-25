@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/viditrastogi11/dummy-travel#readme",
   "dependencies": {
+    "lazysizes": "^5.2.1-rc2",
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1",
     "style-loader": "^1.2.1"
